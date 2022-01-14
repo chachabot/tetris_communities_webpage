@@ -118,7 +118,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #c4d5e4;
+		color: #e0ebf5;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2646,7 +2646,7 @@ input, select, textarea {
 				}
 
 			.tiles article > a {
-				/* display: -moz-flex;
+				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
@@ -2666,7 +2666,7 @@ input, select, textarea {
 				-webkit-transition: background-color 0.5s ease, -webkit-transform 0.5s ease;
 				-ms-transition: background-color 0.5s ease, -ms-transform 0.5s ease;
 				transition: background-color 0.5s ease, transform 0.5s ease;
-				position: absolute; */
+				position: absolute;
 				top: 0;
 				left: 0;
 				width: 100%;
@@ -2711,6 +2711,10 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
+					.tiles article > a .content > a:hover {
+						color:#9bebff;
+					}
+
 			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
 			}
@@ -2743,8 +2747,8 @@ input, select, textarea {
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
-					opacity: 0.35;
+					background-color: #2e2e2e;
+					opacity: 0.9;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
