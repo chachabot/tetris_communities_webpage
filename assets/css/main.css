@@ -203,7 +203,7 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.2em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2646,7 +2646,7 @@ input, select, textarea {
 				}
 
 			.tiles article > a {
-				display: -moz-flex;
+				/* display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
@@ -2666,7 +2666,7 @@ input, select, textarea {
 				-webkit-transition: background-color 0.5s ease, -webkit-transform 0.5s ease;
 				-ms-transition: background-color 0.5s ease, -ms-transform 0.5s ease;
 				transition: background-color 0.5s ease, transform 0.5s ease;
-				position: absolute;
+				position: absolute; */
 				top: 0;
 				left: 0;
 				width: 100%;
@@ -2700,8 +2700,11 @@ input, select, textarea {
 					width: 100%;
 					max-height: 0;
 					line-height: 1.5;
+					color: white;
 					margin-top: 0.35em;
 					opacity: 0;
+					font-size: larger;
+					font-weight: bold;
 				}
 
 					.tiles article > a .content > :last-child {
